@@ -1,7 +1,7 @@
 public class SobreEscritura{
 
-    private int primerVariable = 0;
-    private String segundaVariable = null;
+    private int primerVariable;
+    private String segundaVariable;
     
     public SobreEscritura(){
         this.primerVariable = 1;
