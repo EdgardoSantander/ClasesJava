@@ -6,6 +6,7 @@ public class TestEmpleado {
         Gerente gerente = new Gerente("Edgardo",1500,"Desarrollo");
 
 
-        gerente.obtenerDetalles();
+        System.out.println(gerente.obtenerDetalles());
+        gerente.mostrarDepartamento();
     }
 }
