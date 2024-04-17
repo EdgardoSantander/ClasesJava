@@ -8,8 +8,9 @@ public class Gerente extends Empleado{
         this.departamento = departamento;
     }
 
-    public void mostrarDepartamento(){
-        System.out.println("Departamento: "+this.departamento);
+    @Override
+    public String obtenerDetalles(){
+        return  super.obtenerDetalles()+", departamento: "+this.departamento;
     }
     
 

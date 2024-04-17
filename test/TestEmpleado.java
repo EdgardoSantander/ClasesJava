@@ -7,6 +7,6 @@ public class TestEmpleado {
 
 
         System.out.println(gerente.obtenerDetalles());
-        gerente.mostrarDepartamento();
+        
     }
 }
